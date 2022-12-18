@@ -1,0 +1,276 @@
+version: "3.1"
+nlu:
+- intent: my_name
+  examples: |
+    - cậu tên gì?
+    - tên cậu là gì?
+    - tên
+    - mày tên gì?
+    - cậu tên gì
+- intent: greet
+  examples: |
+    - chào
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hế lô
+    - há lô
+    - lô
+    - hey there
+    - let's go
+    - hey
+    - what's up
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - chào cậu
+- intent: disgust
+  examples: |
+    - ngu
+    - đần
+    - dốt
+    - khùng
+    - điên
+    - stupid
+    - schewpid
+    - dumb
+    - retard
+    - thiểu năng
+    - xàm
+    - xàm loz
+- intent: tuvan
+  examples: |
+    - tư vấn
+    - bắt đầu tư vấn
+    - hỗ trợ
+    - cậu có thể hỗ trợ mình không
+    - giúp mình với
+    - giúp đỡ mình với
+    - tư vấn tâm lý mình
+    - hỗ trợ mình với
+- intent: goodbye
+  examples: |
+    - bye
+    - tạm biệt
+    - kết thúc
+    - good by
+    - cee you later
+    - good night
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - ừ
+    - ye
+    - uk
+    - ukm
+    - đương nhiên
+    - chuẩn
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ừm
+    - ùm
+    - uh
+    - ổn
+- intent: deny
+  examples: |
+    - no
+    - ko
+    - không
+    - có cái nịt
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - chắc không đâu
+- intent: sport
+  examples: |
+    - thể thao
+    - môn thể thao
+    - bóng đá
+    - đá banh
+    - đá bóng
+    - bóng chuyền
+    - nhảy dây
+    - tennis
+    - bơi
+- intent: football
+  examples: |
+    - cầu thủ
+    - thủ môn
+    - hậu vệ
+- intent: clubs
+  examples: |
+    - MU
+    - Manchester United
+    - Ars
+    - Arsenal
+    - Manchester City
+    - Bayern Munich
+    - Barca
+    - Real Madrid
+    - Juventus
+    - AC Milan
+- intent: countries
+  examples: |
+    - Việt Nam
+    - Brasil
+    - Brazil
+    - Argentina
+    - Tây Ban Nha
+    - TBN
+    - Xứ Wells
+    - Bồ Đào Nha
+- intent: players
+  examples: |
+    - Quang Hải
+    - Phan Văn Đức
+    - Lương Xuân Trường
+    - Bùi Tiến Dũng
+    - Duy Mạnh
+    - Ronaldo
+    - CR7
+    - Pele
+    - David Beckham
+    - Beckham
+    - Messi
+- intent: mood_great
+  examples: |
+    - tuyệt
+    - vui
+    - hạnh phúc
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: smile
+  examples: |
+    - ha ha
+    - vui quá
+- intent: school
+  examples: |
+    - lớp
+    - trường
+- intent: subject
+  examples: |
+    - môn
+    - toán
+    - lý
+    - hóa
+    - sinh
+    - anh
+    - anh văn
+    - tiếng anh
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - buồn
+    - không vui
+    - chán
+    - nản
+    - chán quá
+    - nản quá
+    - buồn quá
+    - huhu
+    - hu
+- intent: love
+  examples: |
+    - yêu
+    - thất tình
+    - chia tay
+- intent: family
+  examples: |
+    - gia đình
+    - ba
+    - bố
+    - mẹ
+    - má
+    - phụ huynh
+    - nhà
+- intent: friend
+  examples: |
+    - ae
+    - bạn
+    - bạn bè
+- intent: done
+  examples: |
+    - ok
+    - xong
+    - ổn
+    - hết rồi
+    - không sao
+    - đỡ
+    - không có gì
+    - tốt
+    - được
+- intent: bot_challenge
+  examples: |
+    - phải người không
+    - bot
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: bltx
+  examples: |
+    - đánh đập
+    - trên
+    - bị đánh
+    - bị bạo lực
+    - bị bạo hành
+    - bắt nạt
+    - đánh
+- intent: tranlot
+  examples: |
+    - bắt đưa
+    - trấn lột
+- intent: looks
+  examples: |
+    - lùn
+    - béo
+    - mập
+    - xấu
+    - da đen
+    - gầy
+- intent: backtalk
+  examples: |
+    - nói xấu
+    - nói sau lưng
+- intent: cyberbully
+  examples: |
+    - phốt
+    - chửi trên mạng
+- intent: lgbt
+  examples: |
+    - gay
+    - bê đê
+    - xì trây
+    - lgbt

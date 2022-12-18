@@ -1,0 +1,74 @@
+version: '3.1'
+intents:
+- affirm
+- backtalk
+- bltx
+- bot_challenge
+- clubs
+- countries
+- cyberbully
+- deny
+- disgust
+- done
+- family
+- football
+- friend
+- get_name
+- goodbye
+- greet
+- lgbt
+- looks
+- love
+- mood_great
+- mood_unhappy
+- my_name
+- players
+- school
+- smile
+- sport
+- subject
+- tranlot
+- tuvan
+responses:
+  utter_greet:
+  - text: Chào cậu
+  - text: hiii
+  utter_feelingood:
+  - text: tớ vẫn khỏe, chat chit suốt ngày. hi hi
+  utter_my_name:
+  - text: Mình là Hoài An
+  - text: An
+  - text: Tớ tên An
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: mình giúp được bạn chưa?
+  utter_happy:
+  - text: Tuyệt thế
+  utter_laugh:
+  - text: hihi
+  - text: cậu có gì vui thế
+  - text: cậu vui tớ cũng vui
+  - text: hì hì
+  utter_goodbye:
+  - text: Bye
+  - text: tạm biệt
+  - text: chào cậu. lần khác nói tiếp nhé
+  - text: gặp lại sauu
+  utter_iamabot:
+  - text: Mình là bot ;v.
+  tuvan_form:
+  - text: Bạn đang cảm thấy thế nào?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_cheer_up
+- utter_did_that_help
+- utter_feelingood
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_laugh
+- utter_my_name
