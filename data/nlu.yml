@@ -26,13 +26,20 @@ nlu:
     - goodevening
     - good afternoon
     - chào cậu
+- intent: age
+  examples: |
+    - cậu bao nhiêu tuổi?
+    - cậu mấy tuổi rồi
+    - mấy tuổi
+    - sinh ra mấy năm rồi
 - intent: disgust
   examples: |
-    - ngu
-    - đần
-    - dốt
-    - khùng
-    - điên
+    - mày ngu quá
+    - mày dốt thế
+    - đồ đần
+    - bị dốt à?
+    - đồ khùng
+    - đồ điên
     - stupid
     - schewpid
     - dumb
@@ -50,6 +57,8 @@ nlu:
     - giúp đỡ mình với
     - tư vấn tâm lý mình
     - hỗ trợ mình với
+    - cậu có thể tư vấn cho tớ được không
+    - tư vấn tâm lý cho tớ đi
 - intent: goodbye
   examples: |
     - bye
@@ -80,7 +89,6 @@ nlu:
     - ừm
     - ùm
     - uh
-    - ổn
 - intent: deny
   examples: |
     - no
@@ -205,23 +213,40 @@ nlu:
     - hu
 - intent: love
   examples: |
-    - yêu
-    - thất tình
+    - không yêu nữa
+    - hết yêu rồi
+    - mới thất tình
+    - mới chia tay
+    - broke up
+    - break up
     - chia tay
 - intent: family
   examples: |
-    - gia đình
-    - ba
-    - bố
-    - mẹ
-    - má
-    - phụ huynh
-    - nhà
+    - gia đình tớ nghiêm khắc quá
+    - ba tớ nghiêm quá
+    - bố tớ nghiêm quá
+    - mẹ tớ nghiêm quá
+    - má tớ nghiêm quá
+    - phụ huynh tớ nghiêm quá
+    - nhà tớ nghiêm quá
+    - nhà tớ áp lực quá
+    - gia đình tớ áp lực quá
 - intent: friend
   examples: |
     - ae
-    - bạn
-    - bạn bè
+    - ae chơi ác quá
+    - anh em lầy quá
+    - bạn tớ bỏ đi rồi
+    - bạn tớ bỏ bê
+    - bạn tớ chán tớ rồi
+    - bạn mình chán mình rồi
+    - mình bị bạn mình bỏ rồi
+    - bạn mình không quan tâm
+    - bạn mình ko quan tâm đến mình nữa
+    - bạn bè tệ quá
+    - bạn bè cc
+    - ae cc
+    - anh em cc
 - intent: done
   examples: |
     - ok
@@ -274,3 +299,8 @@ nlu:
     - bê đê
     - xì trây
     - lgbt
+- intent: nlu_fallback
+  examples: |
+    - cậu mấy tuổi rồi
+    - Mây gọi nắng, gặng nói điều gì?
+    - dạo này có phim gì hay nhỉ?

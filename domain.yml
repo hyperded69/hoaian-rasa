@@ -1,6 +1,7 @@
 version: '3.1'
 intents:
 - affirm
+- age
 - backtalk
 - bltx
 - bot_challenge
@@ -39,9 +40,12 @@ responses:
   - text: Mình là Hoài An
   - text: An
   - text: Tớ tên An
+  utter_age:
+  - text: Mình 20 tuổi
+  - text: Mình đã qua 20 mùa bánh chưng
   utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
+  - text: Để mình giúp bạn vui lên "https://www.youtube.com/watch?v=d3pLh3Rf8Rg"
+    image: https://upload.wikimedia.org/wikipedia/commons/8/82/%D0%9D%D0%B0%D0%B9%D0%BA%D1%80%D0%B0%D1%89%D1%96_%D0%BC%D0%B8%D1%82%D1%96_%D0%B6%D0%B8%D1%82%D1%82%D1%8F.jpg
   utter_did_that_help:
   - text: mình giúp được bạn chưa?
   utter_happy:
@@ -58,17 +62,43 @@ responses:
   - text: gặp lại sauu
   utter_iamabot:
   - text: Mình là bot ;v.
-  tuvan_form:
+  utter_tuvan_form:
   - text: Bạn đang cảm thấy thế nào?
+  utter_good_mood:
+  - text: phù!! Cậu làm mình lo quá :D
+  - text: hmmn ok :v
+  - text: khỏe là tốt rồi :D
+  utter_why_sad:
+  - text: Sao cậu buồn, kể cho mình nghe đi
+  - text: Sao cậu buồn
+  - text: Sao thế
+  utter_disgust:
+  - text: Nếu cậu nghĩ tớ ngu thì ra chỗ khác chơi đi nhé?
+  - text: Nhìn lại bản thân cậu mà xem?
+  utter_friends:
+  - text: không có đứa này mình có đứa khác lo gì
+  - text: Ôi, cái đám bạn thân, thân ai nấy lo. Có gì mà phải buồn
+  utter_family:
+  - text: Bố mẹ chỉ muốn mình tốt hơn thôi, có thể cậu không cảm thấy như vậy, nhưng chả có bố mẹ nào ghét con cái của họ cả
+  utter_love:
+  - text: Thôi đừng buồn, sẽ có người khác tốt hơn thôi. Tớ chẳng hạn <3 <3
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 actions:
+- utter_age
 - utter_cheer_up
 - utter_did_that_help
+- utter_disgust
+- utter_family
 - utter_feelingood
+- utter_friends
 - utter_goodbye
 - utter_greet
 - utter_happy
+- utter_iamabot
 - utter_laugh
+- utter_love
 - utter_my_name
+- utter_tuvan_form
+- utter_why_sad

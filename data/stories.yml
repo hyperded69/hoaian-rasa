@@ -37,13 +37,43 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+
+- story: Activate the rapist mode
+  steps:
+  - intent: tuvan
+  - action: utter_tuvan_form
+ # - active_loop: utter_tuvan_form
+  # if feeling good
+  - intent: mood_great
+  - action: utter_good_mood
+  # if feeling S.H.I.T 
+  - intent: mood_unhappy
+  - action: utter_why_sad
+  # if cause FRIEND
+  - intent: friend
+  - action: utter_friends
+  # if cause LOVE
+  - intent: love
+  - action: utter_love
+  # if cause family
+  - intent: family
+  - action: utter_family
+  # DISGUSTING
+  - intent: disgust
+  - action: utter_disgust
+
+  - active_loop: null
+
+- story: interactive_story_1
+  steps:
+  - intent: tuvan
+  - action: utter_tuvan_form
+
 - story: interactive_story_1
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: greet
-  - action: utter_greet
-  - intent: greet
-  - action: utter_greet
   - intent: my_name
   - action: utter_my_name
+  - intent: tuvan
+  - action: utter_tuvan_form

@@ -12,3 +12,8 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- rule: Activate the rapist mode
+  steps:
+  - intent: tuvan
+  - action: utter_tuvan_form
+ # - active_loop: utter_tuvan_form
